@@ -15,9 +15,9 @@ public class BinaryColumn {
 		}
 		else{
 			System.out.println(Arrays.toString(args));
-			for(int argument = Integer.parseInt(args[0]);argument!=0;){
+			for(int argument = Integer.parseInt(args[0]);argument!=0;argument >>= 1){
 				System.out.println(argument%2);
-				argument >>= 1;
+				
 			}
 			
 		}
